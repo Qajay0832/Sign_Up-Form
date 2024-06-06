@@ -10,10 +10,17 @@ const emailchange=()=>{
     if(!email.value.match(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/)){
         error1.style.display="block";
     }
+    else{
+        error1.style.display="none";
+
+    }
 }
 const passwordChange=()=>{
     if( !password.value.match(/^.{8,}$/)){
         error2.style.display="block";
+    }
+    else{
+        error2.style.display="none";
     }
 }
 const onSubmit=(event)=>{
