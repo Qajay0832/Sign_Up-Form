@@ -1,0 +1,28 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+.success {
+    color: green;
+    display: none;
+}
+
+input {
+    padding: 5px;
+    width: 400px;
+}
+
+.submitBtn {
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="onSubmit(event)">
+        <div class="formContainer">
+        <label for="email">Email</label>
+        <input type="text" placeholder="Example@email.com" id="email" onchange="emailchange(event)">
+        <p class="error" id="error1">Make sure email is more than 3 characters and has @ and a .</p>
+        <label for="password">Password</label>
+        <input type="text" placeholder="Your Password" id="password" onchange="passwordChange(event)">
+        <p class="error" id="error2">Make sure email is more than 8 characters .</p>
+        <p class="success" id="submitPara">All good to go!</p>
+        <button class="submitBtn" type="submit" id="submit">Submit</button>
+    </div>
+
+        
+        
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
